@@ -1,0 +1,13 @@
+#btncurrent:hover{
+    background-color:  rgb(195, 246, 65) !important;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#btnprevious:hover{
+    background-color: rgb(195, 246, 65) !important;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#btncurrent:active{
+    background-color: green !important;
+}

@@ -1,0 +1,117 @@
+.page-header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 150px 0 90px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../src/pages/home/img/Box.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* BuffetForm Component CSS */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    min-height: 100vh;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 480px; /* Adjust as needed */
+  }
+  
+.buffetform form {
+    padding: 10px;
+    max-width: 400px;
+    margin: 10 auto;
+  }
+  
+.buffetform label {
+    margin-left: 30px;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+
+  
+.buffetform textarea {
+    resize: vertical;
+  }
+
+.categories{
+  padding: 40px;
+  font-family: Alegreya Sans, sans-serif;
+  }   
+
+  .categories-item-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    grid-row-gap: 30px;
+    width: 10% !important
+}
+
+@media only screen and (max-width: 620px) {
+  .categories-item {
+      margin: auto;
+      height: 120px;
+      width: 95%;
+      position: relative;
+  }
+}
+
+.categories-item {
+  position: relative;
+  height: 207px;
+  width: 265px;
+  padding-left: 10px;
+}
+
+
+@media only screen and (max-width: 620px) {
+  .categories-item p {
+      font-weight: 600;
+      font-size: 10px;
+  }
+}
+
+.categories p {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  background-color: #ffb800 !important;
+  padding-left: 5px;
+  height: 35px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+}
+
+.categories-item img {
+  width: 270px !important;
+  transition: .2s;
+}
+
+.img-fluid, .img-thumbnail {
+  max-width: 100%;
+  height: 200px !important;
+}
+
+.row{
+  margin-right: 10px !important;
+  height: 100% !important;
+}
+
+.col{
+  margin-bottom: 35px !important
+}

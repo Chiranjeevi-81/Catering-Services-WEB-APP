@@ -1,0 +1,293 @@
+@media screen and (max-width:480px){
+    /* START OF ABOUT US */
+
+    /* .about{
+       margin: 0px;
+       padding: 0px;
+    } */
+
+    .about img{
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100% !important;
+        
+    }
+    .about-content .section-header p,h2{
+      
+        text-align: center;
+    }
+    .about-content .about-text p{
+     /* background-color: aqua; */
+     /* text-align: justify; */
+      font-family: 'Gabarito';
+      width: 100% !important;
+     line-height: 25px;
+      font-size: 15px !important;
+      display: block;
+      margin-left: auto !important;
+      margin-right: auto !important;  
+      }
+      #abtbtn{
+        width: 100%;
+        margin-top: 20px;
+      }
+      /* END OF ABOUTS US */
+
+      /* FEATURES START */
+      .feature-item i{
+        font-size: 20px !important;
+      }
+      .feature-item .font-bold{
+        font-size: 20px !important;
+      }
+      .feature .feature-item i span{
+        font-size: 70px !important;
+      }
+      .feature .feature-item p {
+        width: 100% !important;
+        font-size: 11px !important;
+        text-align: justify;
+    }
+    #left-features{
+       display: contents;
+    }
+    #left-features p{
+        text-align: center;
+    }
+      /*  End Features*/
+
+      /* Special Dishes */
+      .text-left p{
+        font-size: 30px;
+        text-align: center;
+      }
+      .text-left h2{
+        font-size: 35px;
+       text-align: center;
+      }
+      /* End Special Dishes */
+
+
+      /* Menu Box  */
+      #MenuBox{
+        display: contents;
+      }
+      #MenuBox .food-item{ 
+        display: grid;
+        place-items: center;
+        width: 20rem;
+        justify-content: center;
+        margin-left: 0rem !important;
+        margin-right: auto !important;
+      }
+      .food{
+        position: relative;
+        width: 80%;
+        padding: 90px 0 70px 0;
+        margin: 45px 30px;
+        background-color: var(--bg-color-site);
+
+      }
+      .col-md-4 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+      /* Menu Box End */
+
+      /* Contact Us */
+      .contact .contact-information {
+        display: flow;
+        
+    }
+    .Map{
+        width: 80% !important;
+    }
+    .form1 input {
+        width: 20rem !important; 
+        text-align: center !important;
+        margin-bottom: 15px !important;
+        height: 35px !important; 
+    
+    }
+  
+    .form1 textarea {
+        text-align: center !important;
+        border: 2px solid grey !important;
+        border-radius: 5px !important;
+        padding: 0px !important;
+        margin-top: 5px !important;
+    }
+    .form1 {
+      
+        margin-left: auto !important;
+        display: grid;
+    }
+    iframe{
+           margin-bottom: 30px;
+    /* margin-right: 15px !important; */
+    margin-left: -15px;
+    width: 135% !important;
+    }
+      /* Contact US End */
+   /* Footer */
+   .footer .footer-contact, .footer .footer-link, .footer .footer-newsletter {
+    padding-left: 0px;
+
+}
+.footer .footer-contact h2 {
+  margin-left: -66px;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--palette-main);
+}
+.footer .footer-newsletter h2::after {
+display: none;
+}
+.footer .col-lg-5 {
+  margin-top: 15px;
+  flex: 0 0 102.666667%;
+  max-width: 93.666667%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.footer .footer-newsletter h2 {
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  /* font-size: 19px; */
+  font-weight: 700;
+  color: var(--palette-main);
+}
+ .footer .footer-link h2::after {
+display: none;
+}
+   .footer .footer-contact h2::after{
+   display: none;
+   }
+   .footer .footer-contact {
+      
+
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 52px;
+    color: #454545;
+}
+ .footer .footer-link {    
+  margin-left: -3rem;
+  padding-left: 0px;
+  position: relative;
+  margin-bottom: 0px;
+  color: #454545;
+}
+
+    /* Footer ENd */
+  }
+    @media screen and (min-height:800px) {
+        #MenuBox{
+            display: contents;
+          }
+          #MenuBox .food-item{ 
+            display: grid;
+            place-items: center;
+            /* width: 30rem; */
+            justify-content: center;
+            margin-left: 0rem !important;
+            margin-right: auto !important;
+          }
+          .food{
+            position: relative;
+            width: 80%;
+            padding: 90px 0 70px 0;
+            margin: 45px 30px;
+            background-color: var(--bg-color-site);
+    
+          }
+          .col-md-4 {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+          /* Menu Box End */
+          .form1 input {
+            width: 20rem !important; 
+            text-align: center !important;
+            margin-bottom: 15px !important;
+            height: 35px !important;
+          
+            
+        
+        }
+        .form1 textarea {
+            text-align: center !important;
+            border: 2px solid grey !important;
+            border-radius: 5px !important;
+            padding: 0px !important;
+            margin-top: 5px !important;
+        }
+        .form1 {
+          
+            margin-left: auto !important;
+            display: grid;
+        }
+    }
+   /* @media screen and (max-width:800px){
+    .form1 input {
+        width: 30rem !important; 
+        text-align: center !important;
+        margin-bottom: 15px !important;
+        height: 35px !important;
+        
+        
+    
+    }
+    .form1 textarea {
+        text-align: center !important;
+        border: 2px solid grey !important;
+        border-radius: 5px !important;
+        padding: 0px !important;
+        margin-top: 5px !important;
+    }
+    .form1 {
+      
+        margin-left: 30px !important;
+        display: grid;
+    }
+          } */
+     @media screen and (min-width:600px){
+            .form1 input {
+                width: 30rem !important; 
+                text-align: center !important;
+                margin-bottom: 15px !important;
+                height: 35px !important;
+                
+                
+            
+            }
+            .form1 textarea {
+                text-align: center !important;
+                border: 2px solid grey !important;
+                border-radius: 5px !important;
+                padding: 0px !important;
+                margin-top: 5px !important;
+            }
+            .form1 {
+                margin-right: 10px !important;
+                margin-left: 30px !important;
+                display: grid;
+            }
+                  }
+
+@media screen and (max-width:650px){
+
+  #Homeheader{
+    font-size: 45px !important;
+    text-shadow: 2px 1px black;
+    margin-top: 20px;
+  }
+  #Hometyper{
+    font-size: 13px;
+  }
+}

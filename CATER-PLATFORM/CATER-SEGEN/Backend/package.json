@@ -1,0 +1,23 @@
+{
+  "name": "CATER-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.2",
+    "nodemon": "^3.1.0",
+    "stripe": "^14.23.0",
+    "stripe-cli": "^0.1.0"
+  }
+}

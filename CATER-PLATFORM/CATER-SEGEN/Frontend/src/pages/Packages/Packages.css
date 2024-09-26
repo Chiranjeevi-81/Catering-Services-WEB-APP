@@ -1,0 +1,126 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  input[type=checkbox]{
+    float: right;
+    margin-right: 40%;
+  }
+
+  #rendermenu{
+    /* box-shadow: 10px 10px 10px -4px grey; */
+    margin-top: 70px;
+    scroll-behavior: smooth;
+    height: 500px !important;
+    background-color: white;
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-top: 20px;
+   border-radius: 15px;
+    
+   scrollbar-width: 1px;
+  
+   scroll-behavior: smooth;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 20px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #4CAF50;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 20px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .selected-package {
+    background-color: #ffb534; /* Red color */
+    color: #000000; /* White text */
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .package-card {
+    width: calc(25% - 20px); /* Adjust as needed */
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .package-card:hover {
+    cursor: pointer;
+  }
+  
+  .package-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  
+  .packages-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #clippath2{
+    margin-top: 10px !important;
+    /* padding: 10px; */
+    background: var(--sub-color);
+    color: white;
+   font-size: 30px !important;
+    display: inline-block;
+    padding: .5rem 3.2rem;
+    font-weight: bold;
+    clip-path: polygon(51% 0, 100% 0, 93% 52%, 100% 100%, 51% 100%, 51% 100%, 0 100%, 7% 51%, 0 0);
+}
